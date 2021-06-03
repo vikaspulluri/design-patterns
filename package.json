@@ -5,10 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node dist/Decorator-Pattern/v1/index.js"
+    "start": "tsc && node dist/index.js",
+    "observer": "tsc && node dist/Observer-Pattern/v1/index.js",
+    "strategy": "tsc && node dist/Strategy-Pattern/v1/index.js",
+    "decorator": "tsc && node dist/Decorator-Pattern/v1/index.js",
+    "factory": "tsc && node dist/Factory-Pattern/v1/index.js",
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Design Patterns", "OOPS"],
+  "author": "Vikas Pulluri",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
