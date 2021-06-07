@@ -11,7 +11,8 @@
     "decorator": "tsc && node dist/Decorator-Pattern/v1/index.js",
     "factory": "tsc && node dist/Factory-Pattern/v3/index.js",
     "singleton": "tsc && node dist/Singleton-Pattern/v1/index.js",
-    "command": "tsc && node dist/Command-Pattern/v2/index.js"
+    "command": "tsc && node dist/Command-Pattern/v2/index.js",
+    "adapter": "tsc && node dist/Adapter-Pattern/v1/index.js"
   },
   "keywords": ["Design Patterns", "OOPS"],
   "author": "Vikas Pulluri",
