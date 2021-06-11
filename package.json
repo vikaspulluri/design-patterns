@@ -14,7 +14,8 @@
     "command": "tsc && node dist/Command-Pattern/v2/index.js",
     "adapter": "tsc && node dist/Adapter-Pattern/v1/index.js",
     "facade": "tsc && node dist/Facade-Pattern/v1/index.js",
-    "template": "tsc && node dist/Template-Method/v2/index.js"
+    "template": "tsc && node dist/Template-Method/v2/index.js",
+    "iterator": "tsc && node dist/Iterator-Pattern/v1/index.js"
   },
   "keywords": [
     "Design Patterns",
