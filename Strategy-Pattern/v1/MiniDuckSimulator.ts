@@ -1,10 +1,7 @@
 import { DuckType } from "./Children";
 
 export class MiniDuckSimulator {
-  duck;
-  constructor(private Duck: DuckType) {
-    this.duck = Duck;
-  }
+  constructor(public duck: DuckType) {}
 
   init() {
     this.duck.display();
